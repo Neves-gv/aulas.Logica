@@ -6,3 +6,8 @@
 
 #Diretorio de depedencias
 node_modules/
+
+#alterando
+.gitgnore
+
+exercicios/
