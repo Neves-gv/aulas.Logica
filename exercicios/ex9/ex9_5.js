@@ -2,7 +2,7 @@
 // quantidade de caracteres que terá a senha, crie uma lista com todos os caracteres disponíveis
 // para a senha e com o random sorteie a qual de dígitos terá a senha
 function gerarSenha(tamanhos) {
-    let caracteres = ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{};:,.<>?"];
+    let caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{};:,.<>?";
     let senha = "";
 
     for (let i = 0; i < tamanhos; i++) {
